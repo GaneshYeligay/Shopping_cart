@@ -1,0 +1,20 @@
+.banner {
+    background: url("https://img.wallpapersafari.com/desktop/1600/900/51/19/gLpHlP.jpg") center center;
+    height: 85vh;
+    position: relative;
+  }
+  .banner-btn{
+    margin: 0;
+    position: absolute;
+    top: 84%;
+    margin-left: 47%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 600;
+    background-color: white;
+    border-radius: 4px;
+  }
+  .banner-btn > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
