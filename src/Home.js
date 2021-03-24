@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./Home.css"
 import { Button } from "@material-ui/core";
 import Banner from "./Banner"
+import { Link } from 'react-router-dom'
 class Home extends Component {
 
   render() {
@@ -40,7 +41,8 @@ class Home extends Component {
 
           </div>
           <div className="home__btn">
-            <Button variant='outlined'>Shop Now</Button>
+            <Link to={"/shop"}>
+              <Button variant='outlined'>Shop Now</Button></Link>
           </div>
 
           {/* <div id="demo" class="carousel slide" data-ride="carousel">
